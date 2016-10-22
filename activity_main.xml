@@ -10,11 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.kenne.myapplication.MainActivity">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Enter the question"/>
-
     <Button
         android:id="@+id/vote_button"
         android:layout_width="300dp"
@@ -22,6 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:onClick=""
-        android:text="Vote" />
+        android:text="@string/vote_button" />
+
 </RelativeLayout>
 
